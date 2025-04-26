@@ -1,0 +1,6 @@
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\bin\Debug\Models.dll
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\bin\Debug\Models.pdb
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\obj\Debug\Models.dll
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\obj\Debug\Models.pdb

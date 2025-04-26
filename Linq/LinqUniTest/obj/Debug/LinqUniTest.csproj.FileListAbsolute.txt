@@ -1,0 +1,2 @@
+C:\Users\dominic\source\repos\Csharp-projects\Linq\LinqUniTest\obj\Debug\LinqUniTest.csproj.AssemblyReference.cache
+C:\Users\dominic\source\repos\Csharp-projects\Linq\LinqUniTest\obj\Debug\LinqUniTest.csproj.CoreCompileInputs.cache

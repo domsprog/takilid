@@ -1,0 +1,6 @@
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Linq\obj\Debug\net4.7\Linq.csproj.AssemblyReference.cache
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Linq\obj\Debug\net4.7\Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Linq\obj\Debug\net4.7\Linq.AssemblyInfoInputs.cache
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Linq\obj\Debug\net4.7\Linq.AssemblyInfo.cs
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Linq\obj\Debug\net4.7\Linq.csproj.CoreCompileInputs.cache
+C:\Users\dominic\source\repos\Csharp-projects\Linq\Linq\obj\Debug\net4.7\Linq.sourcelink.json

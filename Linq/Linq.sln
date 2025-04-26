@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{0F2FB4E4-9141-4164-95FD-0AF435DC1293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{C737AF0A-9F88-4AD6-8A93-0C165C2A2314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{DFE036E1-0E55-4CD6-B6BD-B7CB9609E21F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F2FB4E4-9141-4164-95FD-0AF435DC1293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2FB4E4-9141-4164-95FD-0AF435DC1293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2FB4E4-9141-4164-95FD-0AF435DC1293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2FB4E4-9141-4164-95FD-0AF435DC1293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C737AF0A-9F88-4AD6-8A93-0C165C2A2314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C737AF0A-9F88-4AD6-8A93-0C165C2A2314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C737AF0A-9F88-4AD6-8A93-0C165C2A2314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C737AF0A-9F88-4AD6-8A93-0C165C2A2314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE036E1-0E55-4CD6-B6BD-B7CB9609E21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE036E1-0E55-4CD6-B6BD-B7CB9609E21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE036E1-0E55-4CD6-B6BD-B7CB9609E21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE036E1-0E55-4CD6-B6BD-B7CB9609E21F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82C32F7A-F4B9-4C76-AF51-1E8E18EDCC35}
+	EndGlobalSection
+EndGlobal
