@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Linq\\Linq.csproj": {}
+    "C:\\programming\\C#\\linq\\takilid\\Linq\\Linq\\Linq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Linq\\Linq.csproj": {
+    "C:\\programming\\C#\\linq\\takilid\\Linq\\Linq\\Linq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Linq\\Linq.csproj",
+        "projectUniqueName": "C:\\programming\\C#\\linq\\takilid\\Linq\\Linq\\Linq.csproj",
         "projectName": "Linq",
-        "projectPath": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Linq\\Linq.csproj",
-        "packagesPath": "C:\\Users\\dominic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Linq\\obj\\",
+        "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Linq\\Linq.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Linq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dominic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Models\\Models.csproj"
+              "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj": {
+                "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj"
               }
             }
           }
@@ -69,24 +70,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Models\\Models.csproj": {
+    "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Models\\Models.csproj",
+        "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
-          "net481": {
+          "net48": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net481": {}
+        "net48": {}
       }
     }
   }

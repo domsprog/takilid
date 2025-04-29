@@ -1686,23 +1686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dominic\\.nuget\\packages\\": {},
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\programming\\C#\\linq\\takilid\\Linq\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\TestProject1\\TestProject1.csproj",
-      "packagesPath": "C:\\Users\\dominic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\TestProject1\\obj\\",
+      "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\TestProject1\\TestProject1.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dominic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1711,17 +1711,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Linq\\Linq.csproj": {
-              "projectPath": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Linq\\Linq.csproj"
+            "C:\\programming\\C#\\linq\\takilid\\Linq\\Linq\\Linq.csproj": {
+              "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Linq\\Linq.csproj"
             },
-            "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\dominic\\source\\repos\\takilid\\Linq\\Models\\Models.csproj"
+            "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj": {
+              "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj"
             }
           }
         }
@@ -1767,7 +1768,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
