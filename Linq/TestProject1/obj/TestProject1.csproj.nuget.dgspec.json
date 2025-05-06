@@ -33,6 +33,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj": {
+                "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj"
+              },
               "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj": {
                 "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj"
               }
@@ -72,6 +75,26 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj",
+        "projectName": "Method",
+        "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj": {
+                "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     },
     "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj": {

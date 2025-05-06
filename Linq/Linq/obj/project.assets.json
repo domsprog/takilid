@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Method/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Method.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Method.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "type": "project",
         "compile": {
@@ -14,6 +26,11 @@
     }
   },
   "libraries": {
+    "Method/1.0.0": {
+      "type": "project",
+      "path": "../Method/Method.csproj",
+      "msbuildProject": "../Method/Method.csproj"
+    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -22,6 +39,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Method >= 1.0.0",
       "Models >= 1.0.0"
     ]
   },
@@ -58,6 +76,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj": {
+              "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj"
+            },
             "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj": {
               "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj"
             }

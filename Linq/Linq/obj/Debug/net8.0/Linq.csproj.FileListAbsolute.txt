@@ -36,3 +36,5 @@ C:\programming\C#\linq\takilid\Linq\Linq\obj\Debug\net8.0\refint\Linq.dll
 C:\programming\C#\linq\takilid\Linq\Linq\obj\Debug\net8.0\Linq.pdb
 C:\programming\C#\linq\takilid\Linq\Linq\obj\Debug\net8.0\Linq.genruntimeconfig.cache
 C:\programming\C#\linq\takilid\Linq\Linq\obj\Debug\net8.0\ref\Linq.dll
+C:\programming\C#\linq\takilid\Linq\Linq\bin\Debug\net8.0\Method.dll
+C:\programming\C#\linq\takilid\Linq\Linq\bin\Debug\net8.0\Method.pdb

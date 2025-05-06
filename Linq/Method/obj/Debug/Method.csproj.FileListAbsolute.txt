@@ -1,0 +1,9 @@
+C:\programming\C#\linq\takilid\Linq\Method\bin\Debug\Method.dll
+C:\programming\C#\linq\takilid\Linq\Method\bin\Debug\Method.pdb
+C:\programming\C#\linq\takilid\Linq\Method\bin\Debug\Models.dll
+C:\programming\C#\linq\takilid\Linq\Method\bin\Debug\Models.pdb
+C:\programming\C#\linq\takilid\Linq\Method\obj\Debug\Method.csproj.AssemblyReference.cache
+C:\programming\C#\linq\takilid\Linq\Method\obj\Debug\Method.csproj.CoreCompileInputs.cache
+C:\programming\C#\linq\takilid\Linq\Method\obj\Debug\Method.csproj.Up2Date
+C:\programming\C#\linq\takilid\Linq\Method\obj\Debug\Method.dll
+C:\programming\C#\linq\takilid\Linq\Method\obj\Debug\Method.pdb
