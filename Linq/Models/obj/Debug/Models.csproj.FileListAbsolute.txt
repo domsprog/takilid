@@ -4,3 +4,9 @@ C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\obj\Debug\Models.cspro
 C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\obj\Debug\Models.dll
 C:\Users\dominic\source\repos\Csharp-projects\Linq\Models\obj\Debug\Models.pdb
+C:\programming\C#\linq\takilid\Linq\Models\bin\Debug\Models.dll
+C:\programming\C#\linq\takilid\Linq\Models\bin\Debug\Models.pdb
+C:\programming\C#\linq\takilid\Linq\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\programming\C#\linq\takilid\Linq\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\programming\C#\linq\takilid\Linq\Models\obj\Debug\Models.dll
+C:\programming\C#\linq\takilid\Linq\Models\obj\Debug\Models.pdb
