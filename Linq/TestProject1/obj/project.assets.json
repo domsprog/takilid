@@ -689,26 +689,14 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Method": "1.0.0",
-          "Models": "1.0.0"
+          "Models": "1.0.0",
+          "studentLibrary": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Linq.dll": {}
         },
         "runtime": {
           "bin/placeholder/Linq.dll": {}
-        }
-      },
-      "Method/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "Models": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Method.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Method.dll": {}
         }
       },
       "Models/1.0.0": {
@@ -718,6 +706,18 @@
         },
         "runtime": {
           "bin/placeholder/Models.dll": {}
+        }
+      },
+      "studentLibrary/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/studentLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/studentLibrary.dll": {}
         }
       }
     }
@@ -1684,15 +1684,15 @@
       "path": "../Linq/Linq.csproj",
       "msbuildProject": "../Linq/Linq.csproj"
     },
-    "Method/1.0.0": {
-      "type": "project",
-      "path": "../Method/Method.csproj",
-      "msbuildProject": "../Method/Method.csproj"
-    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
       "msbuildProject": "../Models/Models.csproj"
+    },
+    "studentLibrary/1.0.0": {
+      "type": "project",
+      "path": "../Method/studentLibrary.csproj",
+      "msbuildProject": "../Method/studentLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {

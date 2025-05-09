@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "Linq/1.0.0": {
         "dependencies": {
-          "Models": "1.0.0"
+          "Models": "1.0.0",
+          "studentLibrary": "1.0.0"
         },
         "runtime": {
           "Linq.dll": {}
@@ -21,6 +22,16 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "studentLibrary/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "Method.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
@@ -31,6 +42,11 @@
       "sha512": ""
     },
     "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "studentLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

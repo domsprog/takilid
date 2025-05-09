@@ -352,3 +352,5 @@ C:\programming\C#\linq\takilid\Linq\TestProject1\obj\Debug\net9.0\refint\TestPro
 C:\programming\C#\linq\takilid\Linq\TestProject1\obj\Debug\net9.0\TestProject1.pdb
 C:\programming\C#\linq\takilid\Linq\TestProject1\obj\Debug\net9.0\TestProject1.genruntimeconfig.cache
 C:\programming\C#\linq\takilid\Linq\TestProject1\obj\Debug\net9.0\ref\TestProject1.dll
+C:\programming\C#\linq\takilid\Linq\TestProject1\bin\Debug\net9.0\Method.dll
+C:\programming\C#\linq\takilid\Linq\TestProject1\bin\Debug\net9.0\Method.pdb

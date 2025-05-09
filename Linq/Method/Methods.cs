@@ -12,20 +12,25 @@ namespace Method
         // Filters and returns a list of students whose average score is below 75
         public static List<string> GetStudentsWithLowAverage(IEnumerable<Students> students)
         {
-            return students
-                .Where(s => s.Scores.Average() < 75) // Filter students with average score below 75
-                .Select(s => s.FirstName) // Select their first names
-                .ToList();
+
+            return (from student in students
+                    where student.Scores.Average() < 75
+                    select student.FirstName).ToList();
         }
 
 
         // Finds and counts duplicate first names among the students
-        public static Dictionary<string, int> GetSameFirstNameCount(IEnumerable<Students> students)
+        public static Dictionary<string, int> GetSameFirstName(IEnumerable<Students> students)
         {
-            return students
-                .GroupBy(s => s.FirstName) // Group students by their first names
-                .Where(g => g.Count() > 1) // Keep only groups with more than one student
-                .ToDictionary(g => g.Key, g => g.Count()); // Convert to a dictionary with name and count
+            return
+                  (from s in students
+                  group s by s.FirstName into g
+                  where g.Count() > 1
+                  select new
+                  {
+                      firstName = g.Key,
+                      count = g.Count()
+                  }).ToDictionary(x => x.firstName, x => x.count);
         }
 
         // Groups students by their grades for each subject
@@ -36,13 +41,16 @@ namespace Method
 
             for (int i = 0; i < subjectCount; i++) // Iterate through each subject
             {
-                var grouped = students
-                    .GroupBy(s => s.Scores[i]) // Group students by their grade in the current subject
-                    .OrderBy(g => g.Key) // Order groups by grade
-                    .ToDictionary(
-                        g => g.Key, // Grade as the key
-                        g => g.Select(s => $"{s.FirstName} {s.LastName}").ToList() // List of student names as the value
-                    );
+                var grouped = (
+                    from s in students
+                    group s by s.Scores[i] into g
+                    orderby g.Key
+                    select new
+                    {
+                        Grade = g.Key,
+                        Names = (from s in g select $"{s.FirstName} {s.LastName}").ToList()
+                    }
+                ).ToDictionary(x => x.Grade, x => x.Names);
 
                 result.Add(grouped); // Add the grouped data to the result
             }

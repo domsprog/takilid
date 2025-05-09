@@ -49,7 +49,7 @@ namespace linq_assignment
 
             // Display duplicate first names and their counts
             Console.WriteLine("\nDuplicate first names:");
-            var duplicates = Methods.GetSameFirstNameCount(students);
+            var duplicates = Methods.GetSameFirstName(students);
             foreach (var entry in duplicates)
             {
                 Console.WriteLine($"- {entry.Key}: {entry.Value} times");

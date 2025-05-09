@@ -4,6 +4,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models.Information;
 using linq_assignment;
+using Method;
 
 namespace linq_assignment.Tests
 {
@@ -29,125 +30,127 @@ namespace linq_assignment.Tests
         }
 
 
-        //[TestMethod]
-        //public void TestGetStudentsWithLowAverage()
-        //{
-        //    // Arrange
-        //    var expectedStudents = new List<string> { "Bob", "David" };
+        [TestMethod]
+        public void TestGetStudentsWithLowAverage()
+        {
+            // Arrange
+            var expectedStudents = new List<string> { "Bob", "David" };
 
-        //    // Act
-        //    var result = Program.GetStudentsWithLowAverage(testStudents);
+            // Act
+            var result = Methods.GetStudentsWithLowAverage(testStudents);
 
-        //    // Assert
-        //    CollectionAssert.AreEqual(expectedStudents, result, "Should return students with average score below 75");
-        //    Assert.AreEqual(2, result.Count, "Should return exactly 2 students with average below 75");
-        //}
+            // Assert
+            CollectionAssert.AreEqual(expectedStudents, result);//"Should return students with average score below 75"
+            Assert.AreEqual(2, result.Count);//"Should return exactly 2 students with average below 75"
+        }
 
-        //[TestMethod]
-        //public void TestGetSameFirstNameCount()
-        //{
-        //    // Arrange
-        //    var expectedDuplicates = new Dictionary<string, int>
-        //    {
-        //        { "Alice", 2 },
-        //        { "James", 2 }
-        //    };
+        [TestMethod]
+        public void TestGetSameFirstNameCount()
+        {
+            // Arrange
+            var expectedDuplicates = new Dictionary<string, int>
+            {
+                { "Alice", 2 },
+                { "James", 2 }
+            };
 
-        //    // Act
-        //    var result = Program.GetSameFirstNameCount(testStudents);
+            // Act
+            var result = Methods.GetSameFirstName(testStudents);
 
-        //    // Assert
-        //    Assert.AreEqual(expectedDuplicates.Count, result.Count, "Should find the correct number of duplicate names");
+            // Assert
+            Assert.AreEqual(expectedDuplicates.Count, result.Count);// "Should find the correct number of duplicate names"
 
-        //    foreach (var key in expectedDuplicates.Keys)
-        //    {
-        //        Assert.IsTrue(result.ContainsKey(key), $"Result should contain key '{key}'");
-        //        Assert.AreEqual(expectedDuplicates[key], result[key], $"Count for '{key}' should match expected value");
-        //    }
-        //}
+            foreach (var key in expectedDuplicates.Keys)
+            {   
+                Assert.IsTrue(result.ContainsKey(key));
+                Assert.AreEqual(expectedDuplicates[key], result[key]);
+            }
+        }
 
-        //[TestMethod]
-        //public void TestGroupStudentsBySameGradePerSubject()
-        //{
-        //    // Act
-        //    var result = Program.GroupStudentsBySameGradePerSubject(testStudents);
+        [TestMethod]
+        public void TestGroupStudentsBySameGradePerSubject()
+        {
+            // Act
+            var result = Methods.GroupStudentsBySameGradePerSubject(testStudents);
 
-        //    // Assert
-        //    Assert.AreEqual(4, result.Count, "Should have a dictionary for each of the 4 subjects");
+            // Assert
+            Assert.AreEqual(4, result.Count);//"Should have a dictionary for each of the 4 subjects")
 
-        //    // Test Subject 1 (first scores)
-        //    Dictionary<int, List<string>> subject1 = result[0];
-        //    Assert.IsTrue(subject1.ContainsKey(68), "Subject 1 should have grade 68");
-        //    Assert.IsTrue(subject1.ContainsKey(85), "Subject 1 should have grade 85");
-        //    Assert.IsTrue(subject1.ContainsKey(90), "Subject 1 should have grade 90");
-        //    Assert.IsTrue(subject1.ContainsKey(92), "Subject 1 should have grade 92");
-        //    Assert.IsTrue(subject1.ContainsKey(95), "Subject 1 should have grade 95");
+            // Test Subject 1 (first scores)
+            Dictionary<int, List<string>> subject1 = result[0];
+            //"Subject 1 should have grade the following grades"
+            Assert.IsTrue(subject1.ContainsKey(68));
+            Assert.IsTrue(subject1.ContainsKey(85));
+            Assert.IsTrue(subject1.ContainsKey(90));
+            Assert.IsTrue(subject1.ContainsKey(92));
+            Assert.IsTrue(subject1.ContainsKey(95));
 
-        //    // Test specific student placement for subject 1
-        //    CollectionAssert.Contains(subject1[68], "David Lee", "David Lee should have grade 68 in subject 1");
-        //    CollectionAssert.Contains(subject1[85], "Alice Smith", "Alice Smith should have grade 85 in subject 1");
-        //    CollectionAssert.Contains(subject1[95], "James Taylor", "James Taylor should have grade 95 in subject 1");
+            // Test specific student placement for subject 1
+            CollectionAssert.Contains(subject1[68], "David Lee", "David Lee should have grade 68 in subject 1");
+            CollectionAssert.Contains(subject1[85], "Alice Smith", "Alice Smith should have grade 85 in subject 1");
+            CollectionAssert.Contains(subject1[95], "James Taylor", "James Taylor should have grade 95 in subject 1");
 
-        //    // Test Subject 4 (last scores)
-        //    Dictionary<int, List<string>> subject4 = result[3];
-        //    Assert.IsTrue(subject4.ContainsKey(65), "Subject 4 should have grade 65");
-        //    Assert.IsTrue(subject4.ContainsKey(70), "Subject 4 should have grade 70");
-        //    Assert.IsTrue(subject4.ContainsKey(80), "Subject 4 should have grade 80");
-        //    Assert.IsTrue(subject4.ContainsKey(84), "Subject 4 should have grade 84");
-        //    Assert.IsTrue(subject4.ContainsKey(87), "Subject 4 should have grade 87");
-        //    Assert.IsTrue(subject4.ContainsKey(95), "Subject 4 should have grade 95");
-        //    Assert.IsTrue(subject4.ContainsKey(98), "Subject 4 should have grade 98");
+            // Test Subject 4 (last scores)
+            Dictionary<int, List<string>> subject4 = result[3];
+            //"Subject 4 should have grade following grades"
+            Assert.IsTrue(subject4.ContainsKey(65));
+            Assert.IsTrue(subject4.ContainsKey(70));
+            Assert.IsTrue(subject4.ContainsKey(80));
+            Assert.IsTrue(subject4.ContainsKey(84));
+            Assert.IsTrue(subject4.ContainsKey(87));
+            Assert.IsTrue(subject4.ContainsKey(95));
+            Assert.IsTrue(subject4.ContainsKey(98));
 
-        //    // Test specific student placement for subject 4
-        //    CollectionAssert.Contains(subject4[65], "Bob Johnson", "Bob Johnson should have grade 65 in subject 4");
-        //    CollectionAssert.Contains(subject4[98], "Charlie Brown", "Charlie Brown should have grade 98 in subject 4");
-        //}
+            // Test specific student placement for subject 4
+            CollectionAssert.Contains(subject4[65], "Bob Johnson");//"Bob Johnson should have grade 65 in subject 4"
+            CollectionAssert.Contains(subject4[98], "Charlie Brown");//"Charlie Brown should have grade 98 in subject 4"
+        }
 
-        //[TestMethod]
-        //public void TestGetStudentsWithLowAverage_NoLowScores()
-        //{
-        //    // Arrange
-        //    var highScoringStudents = new List<Students>
-        //    {
-        //        new Students { StudentID = 101, FirstName = "Alice", LastName = "Smith", Scores = new List<int> { 85, 92, 78, 95 } },
-        //        new Students { StudentID = 103, FirstName = "Charlie", LastName = "Brown", Scores = new List<int> { 82, 85, 80, 88 } }
-        //    };
+        [TestMethod]
+        public void TestGetStudentsWithLowAverage_NoLowScores()
+        {
+            // Arrange
+            var highScoringStudents = new List<Students>
+            {
+                new Students { StudentID = 101, FirstName = "Alice", LastName = "Smith", Scores = new List<int> { 85, 92, 78, 95 } },
+                new Students { StudentID = 103, FirstName = "Charlie", LastName = "Brown", Scores = new List<int> { 82, 85, 80, 88 } }
+            };
 
-        //    // Act
-        //    var result = Program.GetStudentsWithLowAverage(highScoringStudents);
+            // Act
+            var result = Methods.GetStudentsWithLowAverage(highScoringStudents);
 
-        //    // Assert
-        //    Assert.AreEqual(0, result.Count, "Should return an empty list when no students have average below 75");
-        //}
+            // Assert
+            Assert.AreEqual(0, result.Count);//"Should return an empty list when no students have average below 75"
+        }
 
-        //[TestMethod]
-        //public void TestGetSameFirstNameCount_NoDuplicates()
-        //{
-        //    // Arrange
-        //    var uniqueNameStudents = new List<Students>
-        //    {
-        //        new Students { StudentID = 101, FirstName = "Alice", LastName = "Smith", Scores = new List<int> { 85, 92, 78, 95 } },
-        //        new Students { StudentID = 102, FirstName = "Bob", LastName = "Johnson", Scores = new List<int> { 70, 68, 72, 65 } },
-        //        new Students { StudentID = 103, FirstName = "Charlie", LastName = "Brown", Scores = new List<int> { 92, 95, 90, 98 } }
-        //    };
+        [TestMethod]
+        public void TestGetSameFirstNameNoDuplicates()
+        {
+            // Arrange
+            var uniqueNameStudents = new List<Students>
+            {
+                new Students { StudentID = 101, FirstName = "Alice", LastName = "Smith", Scores = new List<int> { 85, 92, 78, 95 } },
+                new Students { StudentID = 102, FirstName = "Bob", LastName = "Johnson", Scores = new List<int> { 70, 68, 72, 65 } },
+                new Students { StudentID = 103, FirstName = "Charlie", LastName = "Brown", Scores = new List<int> { 92, 95, 90, 98 } }
+            };
 
-        //    // Act
-        //    var result = Program.GetSameFirstNameCount(uniqueNameStudents);
+            // Act
+            var result = Methods.GetSameFirstName(uniqueNameStudents);
 
-        //    // Assert
-        //    Assert.AreEqual(0, result.Count, "Should return an empty dictionary when no duplicate names exist");
-        //}
+            // Assert
+            Assert.AreEqual(0, result.Count);//"Should return an empty dictionary when no duplicate names exist"
+        }
 
-        //[TestMethod]
-        //public void TestGroupStudentsBySameGradePerSubject_EmptyList()
-        //{
-        //    // Arrange
-        //    var emptyList = new List<Students>();
+        [TestMethod]
+        public void TestGroupStudentsBySameGradePerSubjectEmptyList()
+        {
+            // Arrange
+            var emptyList = new List<Students>();
 
-        //    // Act & Assert
-        //    Assert.ThrowsException<InvalidOperationException>(() =>
-        //        Program.GroupStudentsBySameGradePerSubject(emptyList),
-        //        "Should throw an exception when student list is empty");
-        //}
+            // Act & Assert
+            Assert.ThrowsException<InvalidOperationException>(() =>
+                Methods.GroupStudentsBySameGradePerSubject(emptyList),
+                "Should throw an exception when student list is empty");
+        }
     }
 }

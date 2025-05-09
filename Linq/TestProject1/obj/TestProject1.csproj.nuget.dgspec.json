@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj": {
-                "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj"
+              "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\studentLibrary.csproj": {
+                "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\studentLibrary.csproj"
               },
               "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj": {
                 "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Models\\Models.csproj"
@@ -77,11 +77,11 @@
         }
       }
     },
-    "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj": {
+    "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\studentLibrary.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj",
-        "projectName": "Method",
-        "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\Method.csproj",
+        "projectUniqueName": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\studentLibrary.csproj",
+        "projectName": "studentLibrary",
+        "projectPath": "C:\\programming\\C#\\linq\\takilid\\Linq\\Method\\studentLibrary.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{DFE036E1-0E55-4CD6-B6BD-B7CB9609E21F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method", "Method\Method.csproj", "{C5495D1C-E95E-4387-898D-F05ED62C8A3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "studentLibrary", "Method\studentLibrary.csproj", "{C5495D1C-E95E-4387-898D-F05ED62C8A3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
